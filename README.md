@@ -7,7 +7,10 @@ Dataset used in one of my publications: "Narrative video scene description task 
 I predicted the cognitive status by using number of words in the descriptions and also apply a NLP approach that examines the vocabulary using the TF-IDF metric.
 
 - Notebook to calculate new metric comparable to the information acquisition score and prediction using the new model using Random Forest classifier. The new model is based on 4 features:
-    Matches with the top words (N=28) for that clip
-    Number of words not mentioned in any of the descriptions for that clip
-    Length of the description
-    Averaged speech rate
+    **Matches with the top words (N=28) for that clip;
+    
+    **Number of words not mentioned in any of the descriptions for that clip;
+    
+    **Length of the description;
+    
+    **Averaged speech rate;
